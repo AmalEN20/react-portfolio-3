@@ -1,6 +1,9 @@
 import React from "react";
 import WorkImg from "../assets/projects/Calculator.png";
 import realEstate from "../assets/projects/Calculator.png";
+import JobsProject from "../assets/projects/jobs-app.png"
+import SocialMedia from "../assets/projects/SocialMedia.png"
+import WearYouWander from "../assets/projects/WearYouWander.png"
 const Work = () => {
   return (
     <div name="work" className="w-full md:h-screen text-gray-300 bg-white">
@@ -27,12 +30,12 @@ const Work = () => {
                 React JS Applicaation
               </spna>
               <div className="pt-8 text-center">
-                <a target="_blank" href="https://amalen20.github.io/Calculator/" >
+                <a target="blank" href="https://amalen20.github.io/Calculator/" >
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a target="_blank" href="https://github.com/AmalEN20/Calculator">
+                <a target="blank" href="https://github.com/AmalEN20/Calculator">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Code
                   </button>
@@ -41,7 +44,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${JobsProject})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -50,12 +53,12 @@ const Work = () => {
                 React JS Applicaation
               </spna>
               <div className="pt-8 text-center">
-                <a target="_blank" href="https://github.com/AmalEN20/react-jobs-project">
+                <a target="blank" href="https://github.com/AmalEN20/react-jobs-project">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a  target="_blank" href="https://github.com/AmalEN20/react-jobs-project">
+                <a  target="blank" href="https://github.com/AmalEN20/react-jobs-project">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Code
                   </button>
@@ -66,7 +69,7 @@ const Work = () => {
                     {/* Grid Item */}
 
                     <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
+            style={{ backgroundImage: `url(${SocialMedia})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -75,12 +78,12 @@ const Work = () => {
                 React JS Applicaation
               </spna>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a target="blank" href="https://github.com/AmalEN20/MatchMyNeeds">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a target="blank" href="https://github.com/AmalEN20/MatchMyNeeds">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Code
                   </button>
@@ -89,7 +92,7 @@ const Work = () => {
             </div>
           </div>
           <div
-            style={{ backgroundImage: `url(${realEstate})` }}
+            style={{ backgroundImage: `url(${WearYouWander})` }}
             className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/* Hover Effects */}
@@ -98,12 +101,12 @@ const Work = () => {
                 React JS Applicaation
               </spna>
               <div className="pt-8 text-center">
-                <a href="/">
+                <a target="blank" href="https://amalen20.github.io/WearYouWander/">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="/">
+                <a target="blank" href="https://github.com/AmalEN20/WearYouWander">
                   <button className="text-center rounded-lg px-4 py3 m-2 bg-white text-gray-700 fonr-bold text-lg">
                     Code
                   </button>

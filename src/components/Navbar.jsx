@@ -9,7 +9,7 @@ import {
 } from 'react-icons/fa';
 import { HiOutlineMail } from 'react-icons/hi';
 import { BsFillPersonLinesFill } from 'react-icons/bs';
-// import Logo from '../assets/logo1.png';
+import Logo from '../assets/Amal.svg';
 import {Link} from 'react-scroll'
 
 
@@ -20,7 +20,7 @@ const Navbar = () => {
   return (
     <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-black text-gray-300">
       <div>
-        {/* <img src={Logo} alt="Logo Image" style={{ width: "50px" }} /> */}
+        <img src={Logo} alt="Logo Image" style={{ width: "50px" }} />
       </div>
 
       {/* Menu */}
@@ -100,19 +100,20 @@ const Navbar = () => {
         <ul>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href="/">
+            target='blank'
+            href="https://www.linkedin.com/in/amal-engulatov-18b144277/">
               Linkedin <FaLinkedin size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#333333]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href="/">
+            href="https://github.com/AmalEN20" target='blank'>
               Github <FaGithub size={30}/>
             </a>
           </li>
           <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#6fc2b0]'>
             <a className='flex justify-between items-center w-full text-gray-300'
-            href="/">
+            href="https://mail.google.com/mail/u/1/?pli=1#inbox" target='blank'>
               Email <HiOutlineMail size={30}/>
             </a>
           </li>
